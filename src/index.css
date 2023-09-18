@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-wrapper{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 4rem;
+  min-height: 100vh;
+}
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --primary-color: #eb8a1e;
+  --primary-dark-color: #eb8a1e;
+}
