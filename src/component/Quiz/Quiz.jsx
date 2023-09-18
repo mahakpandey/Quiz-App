@@ -13,6 +13,7 @@ const Quiz = () => {
     const clicked = Number(e.target.id);
     console.log("clicked", clicked);
     setQuestionNumber(clicked);
+    setSelectedOption(null);  
   };
   const clickToPrevious = () => {
     questionNumber === 1
